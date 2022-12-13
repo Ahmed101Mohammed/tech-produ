@@ -1,0 +1,57 @@
+div.header
+{
+    padding: 10px;
+    overflow: auto;
+    background-color: rgb(255, 230, 0);
+    position: fixed;
+    opacity: 0.8;
+    width: 100%;
+    top: 0px;
+}
+
+div.header div.icon
+{
+    color: red;
+    font-size: 70px;
+    display: inline;
+
+}
+
+div.header div.nav-par
+{
+    float: right;    
+    display: inline;
+    margin-top: 20px;
+}
+
+div.header div.nav-par ul li
+{
+    display: inline;
+    margin-right: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+
+div.header div.nav-par ul li::after
+{
+    content: "";
+    width: 0.01%;
+    height: 3px;
+    background-color: rgba(255, 102, 0, 0.747);
+    display: block;
+    position: absolute;
+    left: 0px;
+    transition: 0.6s;
+}
+
+div.header div.nav-par ul li:hover::after
+{
+    width: 100%;
+}
+
+div.header div.nav-par ul li a:focus
+{
+    color:brown;
+}
