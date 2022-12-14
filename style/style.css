@@ -149,3 +149,11 @@ div.portfolio
     padding-top: 120px; 
     background-color: rgba(255, 99, 71, 0.925);
 }
+
+/* servieces section styles */
+div.services
+{
+    padding: 120px;
+    width: 100%;
+    height: 100%;
+}
