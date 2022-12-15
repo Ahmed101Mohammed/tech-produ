@@ -150,6 +150,10 @@ div.portfolio
     background-color: rgba(255, 99, 71, 0.925);
 }
 
+div.portfolio h3
+{
+    color: white;
+}
 /* servieces section styles */
 div.services
 {
@@ -274,4 +278,5 @@ div.contact p
     font-family: monospace;
     text-align: center;
     margin-top: 50px;
+    cursor: default;
 }
