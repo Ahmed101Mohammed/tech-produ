@@ -306,3 +306,9 @@ a
     margin-top: 20px;
     font-size: 22px;
 }
+
+/* person class style */
+.person
+{
+    width: 22.5%;
+}
