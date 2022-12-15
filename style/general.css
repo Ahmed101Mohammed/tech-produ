@@ -200,3 +200,109 @@ a
     opacity: 1;
     margin-top: 0px;
 }
+
+/* for table-plan class */
+.table-plan
+{
+    display: inline-block;
+    width: 30%;
+    border: 2px tomato solid;
+    cursor: pointer;
+    margin-left: 2%;
+    transition: 0.6s;
+    position: relative;
+}
+
+.table-plan .title
+{
+    text-align: center;
+    padding: 3px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+}
+
+.table-plan .price
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ebe3e6;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 27px;
+    margin: 10px auto;
+}
+
+.table-plan ul li
+{
+    text-align: left;
+    margin: 5px 0px;
+    font-family:sans-serif;
+    padding: 5px;
+}
+
+.table-plan ul li.colored
+{
+    background-color: tomato;
+    color: white;
+}
+.table-plan ul li span
+{
+    display: inline-block;
+    width: 49%;
+}
+
+.table-plan ul li span.value
+{
+    text-align: right;
+}
+
+/* for chek icon */
+.fa-check
+{
+    color: green !important;
+}
+
+/* for x icon */
+.fa-xmark
+{
+    color: red !important;
+}
+
+/* for statics class */
+.statics
+{
+    width: 100%;
+    height: 238px;
+    background-color: black;
+    opacity: 0.7;
+    padding-top: 70px
+}
+
+.statics .static-item
+{
+    width: fit-content;
+    margin: auto;
+}
+
+.statics .static-item li
+{
+    display: inline-block;
+    margin: 20px 100px;
+}
+
+.statics .static-item li .icon
+{
+    text-align: center;
+    font-size: 50px;
+    color: tomato
+}
+
+.static-item li .value
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 22px;
+}
