@@ -212,3 +212,23 @@ div.team .join a:hover
 {
     color: red;
 }
+
+/* blog section styles */
+
+div.blog
+{
+    width: 100%;
+    padding-top: 120px;
+    height: 100%;
+}
+
+div.blog div.container
+{
+    margin-bottom: 12px;
+}
+
+div.blog div.container div.search i
+{
+    color: red;
+    font-size: 50px;
+}
