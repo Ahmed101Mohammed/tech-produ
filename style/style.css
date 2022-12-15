@@ -232,3 +232,46 @@ div.blog div.container div.search i
     color: red;
     font-size: 50px;
 }
+
+/* Contact section styles */
+
+div.contact
+{
+    height: 25%;
+    background-color: tomato;
+    padding: 50px;
+}
+
+div.contact ul
+{
+    width: fit-content;
+    margin: auto;
+}
+div.contact ul li
+{
+    display: inline-block;
+    font-size: 60px;
+    margin: 3px 40px;
+}
+
+div.contact ul li i
+{
+    color: white;
+    transition: 0.6s;
+    opacity: 0.5;
+}
+
+div.contact ul li i:hover
+{
+    opacity: 1;
+}
+
+div.contact p
+{
+    margin: auto;
+    font-size: 22px;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 50px;
+}

@@ -312,3 +312,33 @@ a
 {
     width: 22.5%;
 }
+
+/* for feacebook icon */
+.fa-facebook:hover
+{
+    color: #0053ff;
+}
+
+/* for twitter icon */
+.fa-twitter:hover
+{
+    color: #1da1f2;
+}
+
+/* for linkedIn icon */
+.fa-linkedin:hover
+{
+    color:#0961b8;
+}
+
+/* for gmail icon */
+.fa-envelope:hover
+{
+    color: #de4032;
+}
+
+/* for whats App icon*/
+.fa-whatsapp:hover
+{
+    color:#3ad655;
+}
